@@ -1,0 +1,41 @@
+[package]
+name = "vc"
+description = "Virtual Customs application."
+version = "0.1.1"
+edition = "2021"
+path = "src/main.rs"
+
+[dependencies]
+wry = "0.23.3"
+tao = "0.15.6"
+home = "0.5.4"
+serde_json = "1.0.94"
+serde = "1.0.154"
+tauri = { version = "1.2", features = ["notification-all", "shell-open"] }
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc = "0.2.7"
+cocoa = "0.24.1"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+webkit2gtk = "0.18.0"
+
+[build-dependencies]
+tauri-build = { version = "1.2", features = [] }
+
+[profile.release]
+strip = true
+panic = "abort"
+codegen-units = 1
+lto = "thin"
+opt-level = "s"
+
+
+[features]
+# by default Tauri runs in production mode
+# when `tauri dev` runs it is executed with `cargo run --no-default-features` if `devPath` is an URL
+default = ["custom-protocol"]
+# this feature is used used for production builds where `devPath` points to the filesystem
+# DO NOT remove this
+custom-protocol = ["tauri/custom-protocol"]
