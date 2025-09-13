@@ -16,7 +16,7 @@ package-lock.json
 yarn.lock
 bun.lockb
 # Rust compiled folders
-target/
+# target/
 # Logs
 logs
 *.log
