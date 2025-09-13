@@ -13,11 +13,11 @@ cargo install web2app
 #### Instructions
 1. Clone the repo:
 ```sh
-git clone https://gitlab.com/the-back-room/tauri-apps/virtual-customs-desktop-app.git
+git clone https://github.com/The-Back-Room/Virtual-Customs-Desktop-App.git
 ```
 2. CD into the cloned repo:
 ```sh
-cd virtual-customs-desktop-app
+cd Virtual-Customs-Desktop-App
 ```
 3. Test the app:
 ```sh

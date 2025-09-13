@@ -5,7 +5,7 @@ Thank you for considering contributing to the Virtual Customs Desktop App! We we
 1. **Fork the Repository**: Start by forking the Virtual Customs Desktop App repository on GitLab to your own account.
 2. **Clone the Forked Repository**: Clone your forked repository to your local machine using the following command:
    ```
-   git clone https://gitlab.com/your-username/virtual-customs-desktop-app.git
+   git clone https://github.com/The-Back-Room/Virtual-Customs-Desktop-App.git
    ```
 3. Create a New Branch: Create a new branch for your feature or bug fix. Use a descriptive name for the branch.
    ```

@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 - Added ROADMAP.md to outline planned features and improvements.
+- Added `.github/workflows/tauri-build.yml` for automated build and release.
 
 ### Changed
 - Updated README.md to clarify installation instructions for Windows, macOS, and Linux users.
@@ -16,11 +17,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Updated README.md to correct typos and improve formatting.
 - Updated instructions in README.md to refer to DEVELOPMENT.md for manual build instructions.
 - Updated DEVELOPMENT.md to clarify instructions for manually building the app on macOS and Linux.
+- Moved project from GitLab to GitHub for use with GitHub Actions automated release build actions and updated documentation accordingly.
 
 ### Fixed
 - Nothing yet.
 
-## [0.1.0](https://gitlab.com/the-back-room/tauri-apps/virtual-customs-desktop-app/-/releases/v0.1.0) - Initial Release
+## 0.1.0
 - Initial release of Virtual Customs App.
 - Initial setup of changelog file.
 - Basic project structure and configuration files.
@@ -34,7 +36,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed
 - Nothing yet.
 
-## [0.1.1](https://gitlab.com/the-back-room/tauri-apps/virtual-customs-desktop-app/-/releases/v0.1.1) - 2025-09
+## 0.1.1
 
 ### Added
 - DEVELOPMENT.md
