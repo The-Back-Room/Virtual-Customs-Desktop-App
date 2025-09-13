@@ -1,4 +1,4 @@
-name: 'Build and Publish App v__VERSION__' # the action automatically replaces \_\_VERSION\_\_ with the app version.
+name: 'Build and Publish Tauri App'
 
 on:
   push:
