@@ -13,21 +13,26 @@ Native desktop application for Virtual Customs built using Tauri-Cli.
 - Lightweight and fast performance.
 
 ## Installation
-Instructions for installing the app on different operating systems.
+To install the Virtual Customs Desktop App, follow the instructions below.
 
-### Windows
+### Prerequisites
+- A Virtual Customs account. If you don't have one, you can sign up at [Virtual Customs](https://virtualcustoms.net).
+- Ensure your system meets the minimum requirements for running Tauri applications.
+- For development installation, ensure you have [Node.js](https://nodejs.org/), [Rust](https://www.rust-lang.org/), and [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites) installed.
+
+### Stable Installation
+To install the stable version of the app, follow these steps:
+
 1. Download the latest release for your operating system from the [releases](https://gitlab.com/the-back-room/tauri-apps/virtual-customs-desktop-app/-/releases) page.
-    - Developers can also build the app manually by following the instructions in the [DEVELOPMENT](DEVELOPMENT.md) file.
 2. Install the app by following the on-screen instructions.
 3. Launch the app and sign in with your Virtual Customs account.
 
-### macOS and Linux
+### Development Installation
+If you want to build the app from source, follow these steps:
+
 1. Follow the instructions in the [DEVELOPMENT](DEVELOPMENT.md) file to manually build the app.
 2. Install the app by following the on-screen instructions.
 3. Launch the app and sign in with your Virtual Customs account.
-
-### Android
-- Coming soon. *(To-Do)*
 
 ## Usage
 1. Launch the app from your desktop or start menu.
